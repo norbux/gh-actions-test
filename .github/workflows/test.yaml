@@ -5,6 +5,7 @@ on:
     - cron: "15 * * * *"
     - cron: "17 * * * *"
     - cron: "18 * * * *"
+    - cron: "22 * * * *"
 
 jobs:
   job1:
