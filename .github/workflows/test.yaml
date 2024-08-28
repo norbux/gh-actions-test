@@ -1,0 +1,12 @@
+name: test
+on:
+  schedule:
+    - cron: "10 * * * *"
+
+jobs:
+  job1:
+    runs-on: latest-ubuntu
+    steps:
+      - name: Hello world action
+        run: |
+          echo "Hello world"
